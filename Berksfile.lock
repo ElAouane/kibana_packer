@@ -1,0 +1,14 @@
+DEPENDENCIES
+  beatsapp
+    git: https://github.com/ElAouane/beatsapp_cookbook.git
+    revision: 23b461256376c3d58f51fa747dab77202f15a54b
+  kibana
+    git: https://github.com/ElAouane/kibana_cookbook.git
+    revision: 05d6e669daa48df68b78d5f986b37cb81a66408e
+
+GRAPH
+  apt (7.3.0)
+  beatsapp (0.1.0)
+    apt (>= 0.0.0)
+  kibana (0.1.0)
+    apt (>= 0.0.0)
